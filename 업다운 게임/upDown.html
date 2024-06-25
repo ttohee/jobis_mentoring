@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #container{
+      width: 800px;
+      height: 800px;
+      border: 1px rgb(207, 207, 207) solid;
+      margin: 50px auto;
+      text-align: center;
+    }
+    h1{
+      margin: 40px 40px;
+      font-size: 50px;
+      font-weight: bold;
+      color: violet;
+    }
+    p{
+      font-size: 24px;
+      font-weight: 550;
+      margin-bottom: 40px;
+    }
+    input{
+      width: 150px;
+      height: 30px;
+    }
+    button{
+      width: 100px;
+      height: 30px;
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <h1>업다운 게임</h1>
+    <p id="guide">숫자를 입력하세요! (1~100)</p>
+    <input type="number" id="user-num" min="1" max="100">
+    <button id="play" onclick="checkGuess()">입력하기</button>
+  </div>
+  <script src="/업다운 게임/upDown.js"></script>
+</body>
+</html>
