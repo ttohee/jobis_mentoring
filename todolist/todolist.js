@@ -7,6 +7,7 @@ function onClickInputButton(elem)
     <input 
     type="checkbox" 
     id="checkbox"
+    onclick="onClickCheckbox(this)"
     />
     <span>${inputBoxValue}</span>
     <img 
@@ -14,6 +15,7 @@ function onClickInputButton(elem)
     width="36px"
     height="36px"
     alt="trash_img"
+    onclick="onClickDeleteButton(this)"
     />
   </li>
   `;
