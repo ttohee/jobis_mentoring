@@ -1,0 +1,70 @@
+*{
+  box-sizing: border-box;
+  background-color: #E0E0FF;
+}
+header{
+  margin: 4px auto;
+  text-align: center;
+}
+h1{
+  font-size: 64px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+li{
+  list-style: none;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+#input_wrapper{
+  display: flex;
+  margin: 4px auto;
+  justify-content: space-between;
+  width: 592px;
+}
+#input_box{
+  width: 448px;
+  height: 80px;
+  border: 2px #ADADC7 solid;
+  padding-left: 20px;
+  font-size: 28px;
+}
+input::placeholder{
+  font-size: 28px;
+  line-height: 48px;
+}
+#input_button{
+  background-color: #6C69FF;
+  width: 80px;
+  height: 80px;
+  font-size: 100px;
+  color: white;
+  line-height: 0px;
+  border: none;
+}
+#to_do_list{
+  box-sizing: border-box;
+  background-color: white;
+  width: 592px;
+  height: 700px;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-top: 4px;
+  padding-left: 88px;
+  padding-right: 88px;
+  padding-top: 36px;
+}
+#checkbox{
+  width: 30px;
+  height: 30px;
+}
+li > span{
+  background-color: white;
+  font-size: 32px;
+  line-height: 30px;
+}
+li > image{
+  background-color: white;
+}
